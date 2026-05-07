@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.firebase/
+*.tsbuildinfo
+src/assets/hero-workbench.png
+.DS_Store
+.env
+.env.*
