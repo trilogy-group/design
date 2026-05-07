@@ -163,6 +163,13 @@ img {
   transition-timing-function: var(--ease-state);
 }
 
+.topbar nav a.nav-icon-link {
+  justify-content: center;
+  width: 44px;
+  padding: 0;
+  color: var(--ink);
+}
+
 .topbar nav a:hover {
   color: var(--ink);
   background: oklch(85% 0.04 83);

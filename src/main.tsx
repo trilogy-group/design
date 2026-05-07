@@ -9,6 +9,7 @@ import {
   Code2,
   Copy,
   Gauge,
+  Github,
   Image,
   Keyboard,
   LayoutDashboard,
@@ -175,6 +176,16 @@ function App() {
           <a href="#linting">Lint</a>
           <a href="#skills">Skills</a>
           <a href="#implementation">Prompt</a>
+          <a
+            className="nav-icon-link"
+            href="https://github.com/trilogy-group/design"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Open the design demo GitHub repository"
+            title="GitHub repository"
+          >
+            <Github aria-hidden="true" size={20} />
+          </a>
         </nav>
       </header>
 
