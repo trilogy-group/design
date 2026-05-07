@@ -192,7 +192,7 @@ img {
 .eyebrow,
 .section-kicker,
 .strip-label,
-.skill-row span {
+.skill-row > div > span {
   font-family: var(--font-label);
   font-size: 0.76rem;
   font-weight: 760;
@@ -611,7 +611,7 @@ h3 {
   color: var(--clay-deep);
 }
 
-.skill-row span {
+.skill-row > div > span {
   color: var(--ink-soft);
 }
 
@@ -662,6 +662,13 @@ h3 {
   transition-property: opacity, transform, visibility;
   transition-duration: 160ms;
   transition-timing-function: var(--ease-out);
+}
+
+.skill-row .metric-tip-bubble {
+  color: oklch(98% 0.03 86);
+  font-family: var(--font-body);
+  font-weight: 700;
+  text-transform: none;
 }
 
 .metric-tip-bubble::after {
