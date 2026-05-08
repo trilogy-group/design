@@ -121,26 +121,17 @@ img {
 }
 
 .brand-mark {
-  gap: 0.6rem;
   min-height: 44px;
   text-decoration: none;
   font-family: var(--font-label);
   font-weight: 760;
-}
-
-.brand-mark span {
-  display: grid;
-  place-items: center;
-  width: 2.45rem;
-  height: 2.45rem;
-  border-radius: 4px;
-  background: var(--ink);
-  color: var(--on-color);
-  box-shadow: inset 0 0 0 1px oklch(97% 0.03 86 / 0.16);
+  color: var(--ink);
 }
 
 .brand-mark strong {
-  font-size: 0.86rem;
+  font-size: 0.92rem;
+  line-height: 1.05;
+  white-space: nowrap;
 }
 
 .topbar nav {

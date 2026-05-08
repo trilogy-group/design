@@ -1,4 +1,4 @@
-# Design Skills and Standards
+# Design Standards and Skills
 
 This repo contains the single-page pedagogical demo behind [design.trilogyai.co](https://design.trilogyai.co/). It explains how design standards and agent skills can give coding agents better design memory, sharper defaults, and clearer review checks.
 

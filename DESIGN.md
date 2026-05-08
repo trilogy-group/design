@@ -1,6 +1,6 @@
 ---
 version: "alpha"
-name: Design Skills and Standards
+name: Design Standards and Skills
 description: A tactile editorial-tech design system for a short design-standards SPA.
 colors:
   primary: "#C43E28"

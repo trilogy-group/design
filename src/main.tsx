@@ -16,6 +16,7 @@ import {
   Paintbrush,
   Sparkles,
   WandSparkles,
+  Youtube,
 } from "lucide-react";
 import heroWorkbench from "./assets/hero-workbench.webp";
 import "./styles.css";
@@ -168,8 +169,7 @@ function App() {
       </a>
       <header className="topbar" aria-label="Site navigation">
         <a className="brand-mark" href="#hero" translate="no">
-          <span>IM</span>
-          <strong>DESIGN.md</strong>
+          <strong>Design Standards and Skills</strong>
         </a>
         <nav aria-label="Page sections">
           <a href="#alignment">Alignment</a>
@@ -186,6 +186,16 @@ function App() {
           >
             <Github aria-hidden="true" size={20} />
           </a>
+          <a
+            className="nav-icon-link"
+            href="https://youtu.be/j_ghsM_4MZY"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Watch the Design Standards and Skills workshop recording on YouTube"
+            title="Workshop recording"
+          >
+            <Youtube aria-hidden="true" size={20} />
+          </a>
         </nav>
       </header>
 
@@ -193,7 +203,7 @@ function App() {
         <section className="hero" id="hero" aria-labelledby="hero-title">
           <div className="hero-copy">
             <p className="eyebrow">Impeccable + DESIGN.md</p>
-            <h1 id="hero-title">Design Skills and Standards</h1>
+            <h1 id="hero-title">Design Standards and Skills</h1>
             <p className="lede">
               DESIGN.md stores the design system. Impeccable and focused frontend skills use that memory to shape, audit, and polish interfaces before they drift into agent-made sameness.
             </p>
